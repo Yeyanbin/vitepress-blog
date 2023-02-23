@@ -8,7 +8,7 @@ import { mdPlugin } from './config/plugins'
  */
 
 const config = defineConfig({
-  base: 'yubi-blog',
+  base: '/yubi-blog/',
   title: 'Yubi',
   lastUpdated: true,
 
