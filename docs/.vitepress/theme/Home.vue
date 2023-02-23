@@ -5,15 +5,15 @@
     </f-text>
 
     <f-text align="center">
-      <f-button round type="primary" class="start" href="/docs/hello.html">
+      <f-button round type="primary" class="start" style="margin-right: 16px;" href="/docs/杂/hello.html">
         😊 快速开始
       </f-button>
-      <f-button round href="https://github.com/Tyh2001/vitePress-demo" target="_blank">
+      <f-button round href="https://github.com/Yeyanbin/vitepress-blog" target="_blank">
         Github
       </f-button>
     </f-text>
 
-    <f-divider margin="40px" color="#eef" />
+    <!-- <f-divider margin="40px" color="#eef" />
 
     <f-text bold block>欢迎使用</f-text>
     <f-text block>⚡ 欢迎使用 vitePress-template</f-text>
@@ -39,7 +39,7 @@
     <f-text>🖍️ markdown 中直接使用 vue 组件</f-text>
     <f-text>✔️ 配置简单，上手容易</f-text>
     <f-text>🚩 markdown 中直接使用 setup 语法糖</f-text>
-    <f-text>📃 第三方组件库支持</f-text>
+    <f-text>📃 第三方组件库支持</f-text> -->
   </f-main>
 </template>
 

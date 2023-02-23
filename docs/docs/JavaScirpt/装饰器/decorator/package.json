@@ -1,0 +1,14 @@
+{
+  "name": "decorator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1"
+  },
+  "author": "yubi",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>实现回形效果</title>
+  </head>
+  <body>
+    <div>
+        <svg width="400px" height="400px" xmlns="http://www.w3.org/2000/svg">
+            <circle id="node" cx="10" cy="10" r="5" fill="red"/>
+        </svg>
+    </div>
+    <script>    
+
+        const setNode = (x, y) => {
+            dom.setAttribute('cx', x);
+            dom.setAttribute('cy', y);
+        }
+        
+        const MAX_X = 400 - 20, MAX_Y = 400 - 20; 
+        let dom = document.getElementById('node');
+        let time = 4000, start = Date.now(), now, x = 10, y = 10, loading = false, raf;
+        let interval = setInterval(() => {
+            now = Date.now();
+            if (!loading) {
+                loading = true;
+                window.requestAnimationFrame(() => {
+                    console.log(now - start, time)
+
+                    if ( now - start > time ) {
+                        setNode(10, 10)
+                        clearInterval(interval);
+                    } else if ( now - start > time * 3/4) {
+                        setNode(x, MAX_Y - ((now-start-time*3/4) / time*4)*MAX_Y);
+                    } else if ( now - start > time * 2/4 ) {
+                        setNode(MAX_X - ((now-start - time/2) / time * 4) * MAX_X, MAX_Y);
+                    } else if ( now - start > time /4 ) {
+                        setNode(MAX_X, y + ((now-start-time/4) / time*4)*MAX_Y);
+                    } else {
+                        setNode(x + ((now-start) / time * 4) * MAX_X, y);
+                    }
+                    loading = false;
+                })
+            }
+        }, 16)
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

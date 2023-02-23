@@ -8,15 +8,16 @@ import { mdPlugin } from './config/plugins'
  */
 
 const config = defineConfig({
-  title: 'vitepress-template',
+  base: 'yubi-blog',
+  title: 'Yubi',
   lastUpdated: true,
 
   themeConfig: {
-    lastUpdatedText: '最后更新时间',
+    lastUpdatedText: '23-02-24',
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Tyh2001/vitepress-template'
+        link: 'https://github.com/Yeyanbin'
       }
     ],
     nav,
