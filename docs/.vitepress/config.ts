@@ -13,7 +13,7 @@ const config = defineConfig({
   lastUpdated: true,
 
   themeConfig: {
-    lastUpdatedText: '23-02-24',
+    lastUpdatedText: '更新时间',
     socialLinks: [
       {
         icon: 'github',

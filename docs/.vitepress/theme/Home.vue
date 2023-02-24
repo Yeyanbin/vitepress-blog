@@ -5,7 +5,7 @@
     </f-text>
 
     <f-text align="center">
-      <f-button round type="primary" class="start" style="margin-right: 16px;" href="/docs/杂/hello.html">
+      <f-button round type="primary" class="start" style="margin-right: 16px;" href="/yubi-blog/docs/杂/hello.html">
         😊 快速开始
       </f-button>
       <f-button round href="https://github.com/Yeyanbin/vitepress-blog" target="_blank">

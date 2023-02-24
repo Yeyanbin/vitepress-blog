@@ -4,7 +4,8 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "./githubPage.sh"
+    "deploy": "./shells/githubPage.sh",
+    "push": "./shells/push.sh"
   },
   "license": "MIT",
   "dependencies": {
