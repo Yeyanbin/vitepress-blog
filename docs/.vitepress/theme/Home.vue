@@ -1,7 +1,7 @@
 <template>
   <f-main>
     <f-text align="center" line-height="70px" bold block size="25px">
-      Hello
+      Hello，这是Yubi的博客，毛坯版本。
     </f-text>
 
     <f-text align="center">

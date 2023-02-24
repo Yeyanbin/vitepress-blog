@@ -53,7 +53,7 @@ export const sidebar = {
           ]
         },
         { text: '装饰器详解与实践', link: '/docs/JavaScirpt/装饰器/decorator/装饰器介绍.md' },
-        { text: '单元测试相关', link: '/docs/css&html/2.css选择器和函数.md', 
+        { text: '单元测试相关', link: '/docs/readme.md', 
           items: [
             {
               text: 'Jest——匹配器的使用',

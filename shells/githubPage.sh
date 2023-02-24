@@ -24,4 +24,4 @@ git commit -m 'deploy'
 git push -f https://github.com/Yeyanbin/yubi-blog.git master:gh-pages
 # git push -f git@github.com:Yeyanbin/yubi-blog.git master:gh-pages
 
-cd -
+# cd -
