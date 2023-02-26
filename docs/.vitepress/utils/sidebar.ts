@@ -27,7 +27,7 @@ export const sidebar = {
     {
       text: '设计模式相关',
       collapsible: true,
-      link: '/docs/design',
+      link: '/docs/设计模式相关/readme.md',
       items: [
         { text: '领域驱动设计初探', link: '/docs/设计模式相关/领域驱动设计_DDD/初步接触.md' },
         { text: '领域驱动设计——充血模型', link: '/docs/设计模式相关/领域驱动设计_DDD/充血模型.md' },
@@ -75,6 +75,36 @@ export const sidebar = {
             { text: 'hello', link: '/docs/杂/hello.md' },
           ]
         },
+      ]
+    },
+    {
+      text: 'Vue相关',
+      collapsible: true,
+      link: '/docs/Vue相关/readme.md',
+      items: [
+        { text: '状态管理', 
+        // link: '/docs/Vue相关/状态管理/readme.md', 
+          collapsible: true,
+          items: [
+            {
+              text: 'vuex概述',
+              link: '/docs/Vue相关/状态管理/vuex/vuex概述.md', 
+            },
+            {
+              text: '【pinia】一，什么是pinia，与vuex对比',
+              link: '/docs/Vue相关/状态管理/pinia/介绍.md', 
+            },
+            {
+              text: '【pinia】二，store',
+              link: '/docs/Vue相关/状态管理/pinia/定义store.md', 
+            }
+          ]
+        },
+        { 
+          text: 'eventbus+mixin的实践',
+          link: '/docs/Vue相关/eventbus通讯设计/eventbus.md', 
+          // docs/docs/Vue相关/eventbus通讯设计/eventbus.md
+        }
       ]
     },
     {
