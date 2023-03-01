@@ -18,7 +18,7 @@
       <f-text class="demo-show">
         <span>项目展示</span>
         <span class="demo-name">Yubi web-os</span>
-        <f-link href="https://yeyanbin.github.io/mac-dialog-demo/dist/" type="primary" style="font-size: 12px;"> > 点击体验 </f-link>
+        <a href="https://yeyanbin.github.io/mac-dialog-demo/dist/" target="_blank" style="font-size: 12px;"> > 点击体验 </a>
       </f-text>
       <f-text>💪 窗口化的web设计，类操作系统式体验</f-text>
       <f-text>🐆 微前端方式部署应用，展示个人项目</f-text>
