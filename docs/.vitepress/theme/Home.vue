@@ -14,14 +14,17 @@
     </f-text>
 
     <f-divider margin="40px" color="#eef" />
+    <div class="demo-wrap">
+      <f-text class="demo-show">
+        <span>项目展示</span>
+        <span class="demo-name">Yubi web-os</span>
+        <f-link href="https://yeyanbin.github.io/mac-dialog-demo/dist/" type="primary" style="font-size: 12px;"> > 点击体验 </f-link>
+      </f-text>
+      <f-text>💪 窗口化的web设计，类操作系统式体验</f-text>
+      <f-text>🐆 微前端方式部署应用，展示个人项目</f-text>
+      <f-text>📌 会不断更新app（希望能部署一下大家的博客）</f-text>
+    </div>
 
-    <f-text block>
-      🔨 Yubi web-os
-      <f-link href="https://yeyanbin.github.io/mac-dialog-demo/dist/" type="primary"> 这里 </f-link>
-    </f-text>
-    <f-text>💪 窗口化的web设计，类操作系统式体验</f-text>
-    <f-text>🐆 微前端方式部署应用，展示个人项目</f-text>
-    <f-text>📌 会不断更新app（希望能部署一下大家的博客）</f-text>
 
     <!--<f-text bold block>欢迎使用</f-text>
     <f-text block>⚡ 欢迎使用 vitePress-template</f-text>
@@ -62,6 +65,9 @@
   box-sizing: border-box;
   padding: 40px;
   padding-bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 
 .f-button-default {
@@ -71,5 +77,20 @@
 .f-text {
   display: block;
   line-height: 40px;
+}
+
+
+.demo-show {
+  display: flex;
+  align-items: center;
+}
+
+.demo-name {
+  font-size: 20px;
+  margin: 0 10px 0 20px;
+  background: whitesmoke;
+  padding: 5px 15px;
+  border: 4px solid var(--f-design-color-primary-1);
+  border-radius: 25px;
 }
 </style>

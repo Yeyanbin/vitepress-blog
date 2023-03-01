@@ -14,6 +14,15 @@ export const sidebar = {
       ]
     },
     {
+      text: '前端工程化',
+      collapsible: true,
+      link: '/docs/front',
+      items: [
+        { text: '微前端初探', link: '/docs/前端工程化相关/微前端/微前端初探.md' },
+        { text: 'wujie框架源码分析', link: '/docs/前端工程化相关/微前端/wujie框架源码分析.md' },
+      ]
+    },
+    {
       text: 'css&html',
       collapsible: true,
       link: '/docs/cssAndHtml',
