@@ -13,9 +13,17 @@
       </f-button>
     </f-text>
 
-    <!-- <f-divider margin="40px" color="#eef" />
+    <f-divider margin="40px" color="#eef" />
 
-    <f-text bold block>欢迎使用</f-text>
+    <f-text block>
+      🔨 Yubi web-os
+      <f-link href="https://yeyanbin.github.io/mac-dialog-demo/dist/" type="primary"> 这里 </f-link>
+    </f-text>
+    <f-text>💪 窗口化的web设计，类操作系统式体验</f-text>
+    <f-text>🐆 微前端方式部署应用，展示个人项目</f-text>
+    <f-text>📌 会不断更新app（希望能部署一下大家的博客）</f-text>
+
+    <!--<f-text bold block>欢迎使用</f-text>
     <f-text block>⚡ 欢迎使用 vitePress-template</f-text>
     <f-text block>🌲 在这里编写你的博客吧</f-text>
     <f-text block>
