@@ -14,6 +14,15 @@ export const sidebar = {
       ]
     },
     {
+      text: '前端工程化',
+      collapsible: true,
+      link: '/docs/front',
+      items: [
+        { text: '微前端初探', link: '/docs/前端工程化相关/微前端/微前端初探.md' },
+        { text: 'wujie框架源码分析', link: '/docs/前端工程化相关/微前端/wujie框架源码分析.md' },
+      ]
+    },
+    {
       text: 'css&html',
       collapsible: true,
       link: '/docs/cssAndHtml',
@@ -27,7 +36,7 @@ export const sidebar = {
     {
       text: '设计模式相关',
       collapsible: true,
-      link: '/docs/design',
+      link: '/docs/设计模式相关/readme.md',
       items: [
         { text: '领域驱动设计初探', link: '/docs/设计模式相关/领域驱动设计_DDD/初步接触.md' },
         { text: '领域驱动设计——充血模型', link: '/docs/设计模式相关/领域驱动设计_DDD/充血模型.md' },
@@ -54,8 +63,7 @@ export const sidebar = {
           ]
         },
         { text: '装饰器详解与实践', link: '/docs/JavaScirpt/装饰器/decorator/装饰器介绍.md' },
-        {
-          text: '单元测试相关', link: '/docs/css&html/2.css选择器和函数.md',
+        { text: '单元测试相关', link: '/docs/readme.md', 
           items: [
             {
               text: 'Jest——匹配器的使用',
@@ -76,6 +84,36 @@ export const sidebar = {
             { text: 'hello', link: '/docs/杂/hello.md' },
           ]
         },
+      ]
+    },
+    {
+      text: 'Vue相关',
+      collapsible: true,
+      link: '/docs/Vue相关/readme.md',
+      items: [
+        { text: '状态管理', 
+        // link: '/docs/Vue相关/状态管理/readme.md', 
+          collapsible: true,
+          items: [
+            {
+              text: 'vuex概述',
+              link: '/docs/Vue相关/状态管理/vuex/vuex概述.md', 
+            },
+            {
+              text: '【pinia】一，什么是pinia，与vuex对比',
+              link: '/docs/Vue相关/状态管理/pinia/介绍.md', 
+            },
+            {
+              text: '【pinia】二，store',
+              link: '/docs/Vue相关/状态管理/pinia/定义store.md', 
+            }
+          ]
+        },
+        { 
+          text: 'eventbus+mixin的实践',
+          link: '/docs/Vue相关/eventbus通讯设计/eventbus.md', 
+          // docs/docs/Vue相关/eventbus通讯设计/eventbus.md
+        }
       ]
     },
     {

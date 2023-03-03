@@ -49,7 +49,7 @@ function useStore(pinia?: Pinia | null, hot?: StoreGeneric): StoreGeneric {
   pinia = activePinia!
 
   if (!pinia._s.has(id)) {
-    // creating the store registers it in `pinia._s`
+    // 创造store，通过两种不同的用法
     if (isSetupStore) {
       createSetupStore(id, setup, options, pinia)
     } else {

@@ -2,6 +2,8 @@
 
 # eventbus
 
+> 使用了一下这种方式，觉得蛮不错的，记一下。
+
 ```js
 import Vue from 'vue';
 const eventbus = new Vue();
