@@ -39,33 +39,34 @@ export const sidebar = {
       collapsible: true,
       link: '/docs/javascirpt',
       items: [
-        { text: '配置化&低代码', link: '/docs/JavaScirpt/配置化&低代码/readme.md', 
+        {
+          text: '配置化&低代码', link: '/docs/JavaScirpt/配置化&低代码/readme.md',
           collapsible: true,
           items: [
             {
               text: '逆波兰表达式详解',
-              link: '/docs/JavaScirpt/配置化&低代码/逆波兰表达式.md', 
+              link: '/docs/JavaScirpt/配置化&低代码/逆波兰表达式.md',
             },
             {
               text: '设计配置化——Schema属性处理提案',
-              link: '/docs/JavaScirpt/配置化&低代码/Schema构造.md', 
+              link: '/docs/JavaScirpt/配置化&低代码/Schema构造.md',
             }
           ]
         },
         { text: '装饰器详解与实践', link: '/docs/JavaScirpt/装饰器/decorator/装饰器介绍.md' },
-        { text: '单元测试相关', link: '/docs/css&html/2.css选择器和函数.md', 
+        {
+          text: '单元测试相关', link: '/docs/css&html/2.css选择器和函数.md',
           items: [
             {
               text: 'Jest——匹配器的使用',
-              link: '/docs/JavaScirpt/jest/匹配器的使用.md', 
+              link: '/docs/JavaScirpt/jest/匹配器的使用.md',
             },
             {
               text: 'Jest——使用jest测试异步函数',
-              link: '/docs/JavaScirpt/jest/使用jest测试异步函数.md', 
+              link: '/docs/JavaScirpt/jest/使用jest测试异步函数.md',
             }
-          ] 
+          ]
         },
-        { text: '3.浏览器是如何执行JS', link: '/docs/css&html/3.浏览器是如何执行JS.md' },
         {
           text: '杂',
           collapsible: true,
@@ -83,6 +84,7 @@ export const sidebar = {
       link: '/docs/node',
       items: [
         { text: '文件系统初探', link: '/docs/Node/fs/文件系统初探.md' },
+        { text: '文件系统初探en', link: '/docs/Node/fs/aa.md' },
       ]
     },
     {
